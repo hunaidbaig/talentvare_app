@@ -13,7 +13,7 @@ function MainContent() {
         <section className='main-section'>
           <div className='container'>
             <SidebarCard />
-            <main style={{  padding : '20px 0' }}>
+            <main className='hero-section'>
               <header className="header">
                 <h1>Find your Dream Job, <span className="highlight">Albert!</span></h1>
                 <p>Explore the latest job openings and apply for the best opportunities available today!</p>

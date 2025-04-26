@@ -4,11 +4,16 @@
     background-color: #F4F4F4;
 }
 
+.hero-section{
+  padding : 20px 0px;
+  width: 100%;
+}
+
 .container{
     display: flex;
-    width: 1443px;
+    /* width: 1443px; */
     gap: 20px;
-    padding: 20px;
+    padding: 20px 20px;
 }
 
 .main-container .main-section{
@@ -103,5 +108,8 @@
   .container{
     flex-direction: column;
     /* align-items: center; */
+  }
+  .search-wrapper{
+    display: none;
   }
 }

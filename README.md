@@ -9,6 +9,12 @@
 
 ---
 
+---
+## 🔗 Live Demo
+-  👉 Live Site: https://talentvare-app.vercel.app/
+
+---
+
 ## ✨ Features
 
 - 🔹 Fully Responsive Layout (Desktop only)

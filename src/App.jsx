@@ -1,11 +1,11 @@
 import './App.css'
-import MainContent from './components/main-content/MainContent'
+import FindJobs from './pages/FindJobs'
 
 function App() {
 
   return (
     <>
-      <MainContent />
+      <FindJobs />
     </>
   )
 }
