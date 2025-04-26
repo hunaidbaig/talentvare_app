@@ -1,0 +1,77 @@
+.job-card {
+    background: #fff;
+    border: 1px solid #E1E1E1;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  .card-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .card-header .team-logo{
+    width: 40px;
+    height: 40px;
+  }
+
+  .card-header h3{
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+  }
+
+  .promoted {
+    color: #333333;
+    font-size: 10px;
+    padding: 2px 0;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .company{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+
+  }
+  .job-info h3 {
+    margin: 0;
+  }
+
+  .detail-item {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .job-info p {
+    margin: 4px 0;
+  }
+
+  .location{
+    color: #585D6E;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .date{
+    color: #585D6E;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .applicants{
+    color: #0154AA;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .btn{
+    margin-top: 8px;
+    gap: 20px;
+  }
+  

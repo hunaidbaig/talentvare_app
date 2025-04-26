@@ -1,0 +1,44 @@
+.job-section {
+    border-top: 1px solid #E9ECEF;
+    padding: 25px 0;
+  }
+  .job-section-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 20px;
+  }
+
+  .job-section-header h2{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .job-section-header a{
+    color: #0154AA;
+    font-size: 14px;
+    font-weight: 500;
+    text-underline-offset: 4px;
+    text-decoration-color: #0154AB;
+  }
+
+  .job-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 768px) {
+    .job-section-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+  
+    .job-list {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
